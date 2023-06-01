@@ -1,0 +1,126 @@
+.rightfix {
+    margin-left: auto;
+}
+
+.container {
+    background-color: rgb(207, 178, 142);
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
+    display: block;
+    width: 60%;
+    height: fit-content;
+    padding-bottom: 30px;
+}
+
+.form {
+    margin-left: auto;
+    margin-right: auto;
+    display: flexbox;
+    width: 70%;
+    height: 70%;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 2.5%;
+    margin-top: 2.5%;
+    display: block;
+    color: rgb(87, 51, 44);
+}
+
+.top {
+    display: flexbox;
+    width: 100%;
+    height: 40%;
+    justify-content: center;
+    align-items: start;
+}
+
+.middle {
+    display: flexbox;
+    width: 100%;
+    height: 40%;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom {
+    margin-top: 2.5%;
+    display: flex;
+    width: 94.5%;
+    height: 20%;
+    justify-content: right;
+    align-items: right;
+}
+
+.cell {
+    display: inline-block;
+    width: 48.5%;
+    height: 50%;
+}
+
+input {
+    width: 90%;
+    height: 30px;
+    color: rgb(87, 51, 44);
+}
+
+textarea {
+    width: 93.5%;
+    resize: none;
+}
+
+input,
+textarea,
+button {
+    color: rgb(87, 51, 44);
+    border-radius: 10px;
+    background-color: rgb(172, 146, 125);
+    border: 2px solid rgb(87, 51, 44);
+}
+
+h2 {
+    color: rgb(87, 51, 44);
+    margin-left: 5%;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    border: 2px solid rgb(240, 239, 205);
+    background-color: rgb(189, 160, 137);
+
+    transition: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+
+button {
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(87, 51, 44);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+button:hover {
+    border: 2px solid rgb(240, 239, 205);
+    color: rgb(240, 239, 205);
+    background-color: rgb(189, 160, 137);
+
+    transition: 0.2s;
+}
+
+button:active {
+    border: 2px solid rgb(87, 51, 44);
+    color: rgb(189, 160, 137);
+    background-color: rgb(87, 51, 44);
+
+    transition: 0.2s;
+}
